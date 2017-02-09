@@ -1,5 +1,5 @@
 # expand-cell-fullscreen
-Expand Jupyter notebook cell to entire screen
+A Jupyter notebook extension to expand Jupyter notebook cell to entire screen.  Select a cell, click the fullscreen button and the entire cell is fullscreen!
 
 # Installation
 1. Clone or download this repository.
@@ -15,3 +15,6 @@ Expand Jupyter notebook cell to entire screen
     <br>
 4. Select cell and click on button that says "expand cell to fullscreen" on mouseover.
 5. Fullscreen!
+
+# About
+This is my first Jupyter notebook extension and sort of my first dive into Javascript.  The extension is simple enough that I hope it helps newcomers to extensions like me.  It's really just a first step into what I want to do with fullscreen.  I started [here](https://github.com/nikhilkalige/plotly-fullscreen) to make Plotly graphs fullscreen, but that it did not expand a cell to the entire fullscreen.  If you are looking to make Plotly graphs fullscreen, using my extension with the [Plotly-Fullscreen](https://github.com/nikhilkalige/plotly-fullscreen) extension will get you all the way there. Tip: ```jupyter --paths``` reveals where the data and config files go for Jupyter notebook.  If you snoop around in those folders and files long enough, you'll probably find what you're looking for.
