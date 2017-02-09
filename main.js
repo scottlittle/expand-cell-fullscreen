@@ -33,7 +33,7 @@ define([
     function load_ipython_extension() {
 		
         var handler = function () {
-            $('.cell.code_cell.selected').each( function() { toggleFullscreen(this) } ); //expand selected cell
+            $('.cell.code_cell.selected').each( function() { toggleFullscreen(this) } ).css({'background-color' : 'white'}); //expand selected cell
         };
 
         var action = {
