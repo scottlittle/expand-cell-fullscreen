@@ -43,7 +43,7 @@ define([
             handler : handler
         };
         var prefix = 'expand-cell-fullscreen';
-        var action_name = 'show-alert';
+        var action_name = 'expand-cell-fullscreen';
 
         var full_action_name = Jupyter.actions.register(action, action_name, prefix);
         Jupyter.toolbar.add_buttons_group([full_action_name]); //add button to toolbar
