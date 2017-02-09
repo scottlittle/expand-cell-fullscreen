@@ -24,6 +24,10 @@ Uninstall extension using a similar command: <br>
 ```
 jupyter nbextension uninstall expand-cell-fullscreen --sys-prefix
 ```
+# To-Do
+- Add more buttons to control what is fullscreened (whole cell or just output).
+- Preserve and restore CSS after fullscreen (right now, I am just making background 'white').
+- Add zoom control when in fullscreen mode.
 
 # About
 
