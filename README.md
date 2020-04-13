@@ -6,16 +6,16 @@ A Jupyter notebook extension to expand Jupyter notebook cell to entire screen.  
     ```
     git clone https://github.com/scottlittle/expand-cell-fullscreen
     ```
-2. Install extension using a similiar command: <br>
+2. Install extension using a similiar command: <br> 
+<br> You can use the option ```--symlink``` if you don't want Jupyter to copy the files to a Jupyter data path.  Also,the option ```--sys-prefix``` will direct data and config files to be configured under the activated Python (useful for people using Anaconda and environments).  See the [nbextension docs](http://jupyter-notebook.readthedocs.io/en/latest/extending/frontend_extensions.html) for more information on these options and other useful info on nbextensions.
     ```
     jupyter nbextension install expand-cell-fullscreen --sys-prefix [--symlink]
     ```
-<br> You can use the option ```--symlink``` if you don't want Jupyter to copy the files to a Jupyter data path.  Also,the option ```--sys-prefix``` will direct data and config files to be configured under the activated Python (useful for people using Anaconda and environments).  See the [nbextension docs](http://jupyter-notebook.readthedocs.io/en/latest/extending/frontend_extensions.html) for more information on these options and other useful info on nbextensions.
+
 3. Enable extension using a similar command: <br>
     ```
     jupyter nbextension enable expand-cell-fullscreen/main --sys-prefix
     ```
-    <br>
 4. Start ```jupyter notebook```, select a cell and click on button that says "expand cell to fullscreen" on mouseover.
 5. Fullscreen!
 
